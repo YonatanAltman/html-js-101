@@ -1,0 +1,15 @@
+.title {
+  color: darkred;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.register-form {
+  border: darkgreen 3px dashed;
+  padding: 60px;
+}
+.register {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.register input {
+    background-color: lightgreen;
+}
