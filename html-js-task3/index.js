@@ -33,7 +33,8 @@ button.addEventListener('click', function (e) {
     let person = { firstName, lastName, age, birthDay };
 
     arr.push(person);
-    let older = { age: 0 }, longesName = { firstName: '' };
+    let older = { age: 0 },
+        longesName = { firstName: '' };
     arr.forEach(element => {
         console.log(element);
         if (element.age > older.age) {
@@ -79,7 +80,7 @@ registerBtn.addEventListener('click', (e) => {
         console.log('Work Done');
 
         document.getElementsByTagName('body')[0].style.backgroundColor = 'green';
-    } else { 
+    } else {
         alert('go home');
     }
 

@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+.title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(49, 116, 43);
+  font-weight: bold;
+}
+main {
+  border: red solid 2px;
+  color: green;
+}
+#square1 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+#square2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(83, 83, 72);
+}
+#square3 {
+  margin: auto;
+
+  height: 50px;
+  width: 50px;
+  background-color: rgb(101, 253, 0);
+}
+#square1:hover {
+  cursor: pointer;
+}
+#square2:hover {
+  cursor: grab;
+}
+#square3:hover {
+  cursor: grab;
+  border: lemonchiffon dashed 3px;
+}
