@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volunteers</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body dir="rtl">
+    <h1 class="title">דף ניהול התנדבויות</h1>
+    <div class="form">
+        <form action="">
+
+
+            <div class="field">
+                <div>
+                    <label for="name">שם התנדבות</label>
+                </div>
+                <input type="text" id="name">
+            </div>
+
+
+            <div class="field">
+                <div>
+                    <label for="desc">תיאור</label>
+                </div>
+                <input type="text" id="desc">
+            </div>
+
+
+            <div class="field">
+                <div>
+                    <label for="population">אוכלוסיה</label>
+                </div>
+                <select name="" id="population">
+                    <option value="1">ילדים</option>
+                    <option value="2">נוער</option>
+                    <option value="3">חיות</option>
+                    <option value="4">מבוגרים</option>
+                </select>
+            </div>
+
+
+            <div class="field">
+                <div>
+                    <label for="dayOfTheweek">יום בשבוע</label>
+                </div>
+                <select name="" id="dayOfTheweek">
+                    <option value="1">ראשון</option>
+                    <option value="2">שני</option>
+                    <option value="3">שלישי</option>
+                    <option value="4">רביעי</option>
+                    <option value="5">חמישי</option>
+                </select>
+            </div>
+
+
+            <div class="field">
+                <div>
+                    <label for="hourInTheDay">שם התנדבות</label>
+                </div>
+                <input type="time" id="hourInTheDay">
+            </div>
+            <div class="field">
+                <div>
+                    <label for="address">כתובת</label>
+                </div>
+                <input type="text" id="address">
+            </div>
+            <div class="field">
+                <div>
+                    <label for="email">מייל איש קשר</label>
+                </div>
+                <input type="email" id="email">
+            </div>
+            <div class="field">
+                <button id="add">הוסף</button>
+            </div>
+
+
+
+
+        </form>
+    </div>
+
+    <div class="table">
+        <table id="volunteerTable">
+            <thead>
+                <tr>
+                    <th># </th>
+                    <th>שם </th>
+                    <th>תיאור </th>
+                    <th>אוכלוסיה </th>
+                    <th>יום בשבוע </th>
+                    <th>שעה </th>
+                    <th>כתובת </th>
+                    <th>מייל </th>
+            </tr>
+
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

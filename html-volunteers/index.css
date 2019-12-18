@@ -1,0 +1,78 @@
+body,
+input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.title {
+  color: darkblue;
+  font-weight: bold;
+}
+form {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+  background: #e1ffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #e1ffff 0%,
+    #e1ffff 7%,
+    #e1ffff 12%,
+    #fdffff 12%,
+    #e6f8fd 30%,
+    #c8eefb 54%,
+    #bee4f8 75%,
+    #b1d8f5 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #e1ffff 0%,
+    #e1ffff 7%,
+    #e1ffff 12%,
+    #fdffff 12%,
+    #e6f8fd 30%,
+    #c8eefb 54%,
+    #bee4f8 75%,
+    #b1d8f5 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #e1ffff 0%,
+    #e1ffff 7%,
+    #e1ffff 12%,
+    #fdffff 12%,
+    #e6f8fd 30%,
+    #c8eefb 54%,
+    #bee4f8 75%,
+    #b1d8f5 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+
+  -webkit-box-shadow: 3px 6px 42px 0px rgba(255, 0, 255, 1);
+  -moz-box-shadow: 3px 6px 42px 0px rgba(255, 0, 255, 1);
+  box-shadow: 3px 6px 42px 0px rgba(255, 0, 255, 1);
+}
+.field {
+  height: auto;
+  border: gray dashed 2px;
+  padding: 14px;
+  margin: 12px;
+  width: 20%;
+}
+.table {
+  width: 90%;
+  height: 30vh;
+  margin: auto;
+  background-color: rgba(0, 132, 255, 0.473);
+}
+table {
+  width: 100%;
+}
+th {
+  border: solid darkblue 1px;
+}
+td {
+  border: solid rgb(0, 0, 0) 1px;
+}
